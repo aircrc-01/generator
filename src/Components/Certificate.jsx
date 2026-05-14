@@ -36,7 +36,7 @@ const Certificate = forwardRef(
           {/* Left Logo */}
           <div className="w-38 h-36 rounded-[10px] bg-white shadow-xl overflow-hidden ring-[4px] ring-[#dbeafe]">
             <img
-              src="/assets/Air.jpeg"
+              src={`${import.meta.env.BASE_URL}assets/Air.jpeg`}
               alt="Left Logo"
               className="w-full h-full object-cover"
             />
@@ -45,7 +45,7 @@ const Certificate = forwardRef(
           {/* Center Logo */}
           <div className="w-36 h-36 rounded-full border-[4px] border-[#1d4ed8] bg-white shadow-xl overflow-hidden ring-[4px] ring-[#dbeafe]">
             <img
-              src="/assets/Tesol.jpeg"
+              src={`${import.meta.env.BASE_URL}assets/Tesol.jpeg`}
               alt="Center Logo"
               className="w-full h-full object-cover"
             />
@@ -54,7 +54,7 @@ const Certificate = forwardRef(
           {/* Right Logo */}
           <div className="w-36 h-36 rounded-full border-[4px] border-[#1d4ed8] bg-white shadow-xl overflow-hidden ring-[4px] ring-[#dbeafe]">
             <img
-              src="/assets/English.jpeg"
+              src={`${import.meta.env.BASE_URL}assets/English.jpeg`}
               alt="Right Logo"
               className="w-full h-full object-cover"
             />
