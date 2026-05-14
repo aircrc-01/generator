@@ -20,7 +20,10 @@ const Certificate = forwardRef(
     return (
       <div
         ref={ref}
-        className="w-[1123px] h-[794px] relative overflow-hidden shadow-2xl bg-[url('/assets/outer.png')] bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: `url(${import.meta.env.BASE_URL}assets/outer.png)`,
+        }}
+        className="w-[1123px] h-[794px] relative overflow-hidden shadow-2xl bg-cover bg-center bg-no-repeat"
       >
         {/* Overlay */}
         <div className="absolute inset-0 bg-[rgba(255,255,255,0.08)]" />
