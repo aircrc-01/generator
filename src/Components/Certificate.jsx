@@ -113,9 +113,7 @@ const Certificate = forwardRef(
             {/* Organizer Name - Right */}
             <div className="text-right mb-4">
               <p className="text-2xl text-[#334155] font-serif">
-                <span className="font-semibold text-[#1e3a8a]">
-                  Organizer Name:
-                </span>{" "}
+                <span className="font-semibold text-[#1e3a8a]">Organizer:</span>{" "}
                 {organizerName}
               </p>
             </div>
